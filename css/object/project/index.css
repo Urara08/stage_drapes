@@ -204,4 +204,21 @@
   -o-object-position: center;
      object-position: center;
 }
+
+.p-content__stage_drapes_2__png {
+  position: absolute;
+  z-index: 110;
+  top: 1500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*真ん中に配置*/
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-bottom: 1000px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
 /*# sourceMappingURL=index.css.map */
