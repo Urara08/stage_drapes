@@ -226,7 +226,7 @@ p, h2, h3 {
   height: 0;
   margin-bottom: 300px;
   padding-bottom: 46.25%;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .p-hero__label {

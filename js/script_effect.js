@@ -3,10 +3,10 @@ $(function() {
 
 	setTimeout(function open_curtain(){
 
-    $("#curtain1").animate({width:100, height:3000},1000).fadeOut(2000);
-    $("#curtain2").animate({width:100, height:3000},1000).fadeOut(2000);
-    $("#curtain1").animate({width:400, height:3000},1000).fadeIn(1);
-    $("#curtain2").animate({width:400, height:3000},1000).fadeIn(1);
+    $("#curtain1").animate({width:100, height:3000},1000).fadeOut(1200);
+    $("#curtain2").animate({width:100, height:3000},1000).fadeOut(1200);
+    $("#curtain1").animate({width:280, height:3000},1000).fadeIn(1);
+    $("#curtain2").animate({width:280, height:3000},1000).fadeIn(1);
 })})
 
 //［ScrollReveal］スクロールで出てくる
@@ -26,15 +26,15 @@ ScrollReveal().reveal('.js-sample',{
 $(function(){
     $(window).scroll(function() {
         $(".js-sample_2").text($(this).scrollTop());
-        $("#curtain1_c2").animate({width:10, height:1500},1000).fadeOut(1000);
-        $("#curtain2_c2").animate({width:10, height:1500},1000).fadeOut(1000);
+        $("#curtain1_c2").animate({width:10, height:2000},100).fadeOut(1000);
+        $("#curtain2_c2").animate({width:10, height:2000},100).fadeOut(1000);
 
     })})
 
 //スクロールで宝箱から出てくる
 $(function(){
     ScrollReveal().reveal('#js-sample_3',{
-        duration: 3000, //完了までの時間
+        duration: 2000, //完了までの時間
         origin: 'left', //distanceと一緒に使う。どの方向から来るか top/right/bottom/left
         distance: '100%',//移動距離（実数も可）
         mobile:false,//モバイルブラウザでの true（有効）/false（無効）
