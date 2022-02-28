@@ -61,6 +61,7 @@
   height: 60px;
   padding-top: 2.5%;
   background-color: #ffc9d2;
+  overflow: hidden;
 }
 
 .p-footer__menu {
@@ -187,6 +188,7 @@
   padding-bottom: 62.5%;
   background-image: url(../img/22116996_m.jpg);
   background-size: cover;
+  overflow-y: hidden;
 }
 
 .p-content__stage_drapes_1__png {
@@ -198,7 +200,6 @@
   /*真ん中に配置*/
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -208,14 +209,13 @@
 .p-content__stage_drapes_2__png {
   position: absolute;
   z-index: 110;
-  top: 1500px;
+  top: 1000px;
   left: 50%;
   transform: translate(-50%, -50%);
   /*真ん中に配置*/
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   margin-bottom: 1000px;
-  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
