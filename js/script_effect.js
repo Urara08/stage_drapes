@@ -16,6 +16,6 @@ ScrollReveal().reveal('.js-sample',{
     distance: '50%',//移動距離（実数も可）
     mobile:false,//モバイルブラウザでの true（有効）/false（無効）
     reset: true,//初期化するかどうか true/false
-　　rotate: { x: 0, y: 0, z: 100 }//回転させながら表示 { x: 縦, y: 横, z: 水平 }
+　　rotate: { x: 0, y: 0, z: 100 }//回転させながら表示する { x: 縦, y: 横, z: 水平 }
 });
 });
