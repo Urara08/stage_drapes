@@ -46,18 +46,6 @@
 }
 
 //js-sample_2のCSS
-
-.black_c2{//videoの上のシート
-  position: absolute;
-  z-index: 70;
-  width: 100%;
-  height:0;
-  padding-bottom: 75%;
-  background-color: rgb(22, 22, 22);
-  opacity: 0.5;
-  overflow: hidden;
-}
-
 #wrapper_c2{
   position: relative;
   z-index: 200;
@@ -74,6 +62,7 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   width:100%;
+  height:auto;
 }
 
 
@@ -84,7 +73,6 @@
   top:0px;
   left:0px;
   width: 50%;
-
   transition: all 1.5s;
 }
 

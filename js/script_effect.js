@@ -25,8 +25,8 @@ ScrollReveal().reveal('.js-sample',{
 $(function(){
     $(window).scroll(function() {
         $(".js-sample_2").text($(this).scrollTop());
-        $("#curtain1_c2").animate({width:100, height:3000},1000).fadeOut(3000);
-        $("#curtain2_c2").animate({width:100, height:3000},1000).fadeOut(3000);
+        $("#curtain1_c2").animate({width:100, height:1500},1000).fadeOut(3000);
+        $("#curtain2_c2").animate({width:100, height:1500},1000).fadeOut(3000);
 
     })})
 
