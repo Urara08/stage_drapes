@@ -134,7 +134,7 @@
 }
 
 #curtain1 {
-  position: absolute;
+  position: fixed;
   z-index: 200;
   top: 0px;
   left: 0px;
@@ -145,7 +145,7 @@
 }
 
 #curtain2 {
-  position: absolute;
+  position: fixed;
   z-index: 200;
   top: 0px;
   right: 0;
