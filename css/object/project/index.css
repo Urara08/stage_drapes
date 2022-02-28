@@ -1,0 +1,189 @@
+.p-body {
+  background-color: black;
+}
+
+.p-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  width: 100%;
+  height: 60px;
+  font-family: "Architects Daughter", cursive;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: hidden;
+}
+
+.p-header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35px;
+  margin-right: 40px;
+}
+
+.p-header__nav__block {
+  margin-top: -10px;
+  width: 40%;
+  height: 25px;
+}
+
+.p-header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 35%;
+}
+
+.p-header__nav__item_label {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+}
+
+.p-footer {
+  width: 100%;
+  height: 60px;
+  padding-top: 2.5%;
+  background-color: #ffc9d2;
+}
+
+.p-footer__menu {
+  text-align: center;
+}
+
+.p-footer__menu__copy {
+  font-family: "Architects Daughter", cursive;
+  color: gray;
+  font-weight: bold;
+}
+
+.p-hero {
+  position: relative;
+  z-index: 40;
+  width: 100%;
+  height: 0;
+  padding-bottom: 46.25%;
+  overflow: hidden;
+}
+
+.p-hero__label {
+  position: absolute;
+  z-index: 120;
+  bottom: 50px;
+  right: 10%;
+  font-size: 30px;
+  font-family: "Architects Daughter", cursive;
+  color: white;
+}
+
+.p-hero__stage_drapes_1__png {
+  position: absolute;
+  z-index: 60;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.black {
+  position: absolute;
+  z-index: 70;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  background-color: #161616;
+  opacity: 0.5;
+}
+
+#wrapper {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  height: auto;
+}
+
+#effect {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+}
+
+#curtain1 {
+  position: absolute;
+  z-index: 200;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+#curtain2 {
+  position: absolute;
+  z-index: 200;
+  top: 0px;
+  right: 0;
+  width: 50%;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.p-button__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-bottom: 60px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.p-button {
+  width: 20%;
+  height: 35px;
+  padding: 5px 10px;
+  background-color: #e2f020;
+  border-radius: 65px;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.c-btn-label {
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+}
+
+.p-content {
+  width: 100%;
+  height: 0;
+  padding-bottom: 62.5%;
+  background-image: url(../img/22116996_m.jpg);
+  background-size: cover;
+}
+/*# sourceMappingURL=index.css.map */

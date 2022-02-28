@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-body {
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-footer {
+  max-width: 100%;
+  min-width: 375px;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-header {
+  position: relative;
+  max-width: 100%;
+  min-width: 375px;
+  overflow: hidden;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-main {
+  max-width: 100%;
+  min-width: 375px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p, h2, h3 {
+  font-family: MPLUS1p;
+}
+/*# sourceMappingURL=index.css.map */

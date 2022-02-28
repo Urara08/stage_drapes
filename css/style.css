@@ -1,0 +1,346 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-body {
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-footer {
+  max-width: 100%;
+  min-width: 375px;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-header {
+  position: relative;
+  max-width: 100%;
+  min-width: 375px;
+  overflow: hidden;
+}
+
+/*スマホ--タブレット--パソコン画面1249pxまで--*/
+.l-main {
+  max-width: 100%;
+  min-width: 375px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p, h2, h3 {
+  font-family: MPLUS1p;
+}
+
+.c-logo--title {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #e2f020;
+  font-family: "Architects Daughter", cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.neon {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0.05em;
+  font-size: 5em;
+  text-shadow: 0 1px 30px #FB1684, 0 0 12px #fff, 2px 5px 60px #990a52;
+}
+
+.neon > span {
+  -webkit-animation: blink 3s infinite alternate;
+  animation: blink 3s infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  40% {
+    opacity: 0.85;
+  }
+  42% {
+    opacity: 0.4;
+  }
+  43% {
+    opacity: 0.85;
+  }
+  45% {
+    opacity: 0.4;
+  }
+  46% {
+    opacity: 0.85;
+  }
+}
+@keyframes blink {
+  40% {
+    opacity: 0.85;
+  }
+  42% {
+    opacity: 0.4;
+  }
+  43% {
+    opacity: 0.85;
+  }
+  45% {
+    opacity: 0.4;
+  }
+  46% {
+    opacity: 0.85;
+  }
+}
+.p-body {
+  background-color: black;
+}
+
+.p-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  width: 100%;
+  height: 60px;
+  font-family: "Architects Daughter", cursive;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: hidden;
+}
+
+.p-header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35px;
+  margin-right: 40px;
+}
+
+.p-header__nav__block {
+  margin-top: -10px;
+  width: 40%;
+  height: 25px;
+}
+
+.p-header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 35%;
+}
+
+.p-header__nav__item_label {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+}
+
+.p-footer {
+  width: 100%;
+  height: 60px;
+  padding-top: 2.5%;
+  background-color: #ffc9d2;
+}
+
+.p-footer__menu {
+  text-align: center;
+}
+
+.p-footer__menu__copy {
+  font-family: "Architects Daughter", cursive;
+  color: gray;
+  font-weight: bold;
+}
+
+.p-hero {
+  position: relative;
+  z-index: 40;
+  width: 100%;
+  height: 0;
+  padding-bottom: 46.25%;
+  overflow: hidden;
+}
+
+.p-hero__label {
+  position: absolute;
+  z-index: 120;
+  bottom: 50px;
+  right: 10%;
+  font-size: 30px;
+  font-family: "Architects Daughter", cursive;
+  color: white;
+}
+
+.p-hero__stage_drapes_1__png {
+  position: absolute;
+  z-index: 60;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.black {
+  position: absolute;
+  z-index: 70;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  background-color: #161616;
+  opacity: 0.5;
+}
+
+#wrapper {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  height: auto;
+}
+
+#effect {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+}
+
+#curtain1 {
+  position: absolute;
+  z-index: 200;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+#curtain2 {
+  position: absolute;
+  z-index: 200;
+  top: 0px;
+  right: 0;
+  width: 50%;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.p-button__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-bottom: 60px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.p-button {
+  width: 20%;
+  height: 35px;
+  padding: 5px 10px;
+  background-color: #e2f020;
+  border-radius: 65px;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.c-btn-label {
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+}
+
+.p-content {
+  width: 100%;
+  height: 0;
+  padding-bottom: 62.5%;
+  background-image: url(../img/22116996_m.jpg);
+  background-size: cover;
+}
+
+/**
+* Foundation
+* ========================== */
+/**
+* Layout
+* ========================== */
+/**
+/* object
+* ========================== */
+/*component */
+/*project */
+/*# sourceMappingURL=style.css.map */

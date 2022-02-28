@@ -1,0 +1,35 @@
+{
+  "name": "glup",
+  "version": "1.0.0",
+  "description": "カンプを見てコーディングします\r 時間を計ります（環境構築は時間に入れません）\r デモサイトは動きの確認の為に見ます\r SCSSを使用します",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urara08/glup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urara08/glup/issues"
+  },
+  "homepage": "https://github.com/Urara08/glup#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "css-mqpacker": "^7.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-svgo": "^8.0.0"
+  }
+}

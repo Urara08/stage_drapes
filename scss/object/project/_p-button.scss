@@ -1,0 +1,27 @@
+.p-button__wrapper{
+  display: flex;
+  justify-content:flex-end;
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-bottom: 60px;
+  transition: all 0.2s;
+}
+
+
+.p-button{
+  width: 20%;
+  height: 35px;
+  padding: 5px 10px;
+  background-color: rgb(226, 240, 32);
+  border-radius: 65px;
+  border: none;
+  transition: all 0.2s;
+}
+
+
+.c-btn-label{
+  font-size: 20px;
+  color: aliceblue;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+}
