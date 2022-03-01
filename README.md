@@ -20,8 +20,13 @@ LIG様　ScrollReveal.jsを使ってスクロールしたらふわっと表示�
 
 https://projects.verou.me/css3patterns/#
 
+CSS3 Patterns Gallery様　レンガの背景
 
-CSS3 Patterns Gallery様
+
+
+https://bcrikko.github.io/css-collection/tool/dotgen/index.html
+
+DotGen.css様　ドット絵のジェネレーター
 
 
 
