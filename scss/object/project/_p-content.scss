@@ -41,7 +41,12 @@
   height:0;
   padding-top: 20%;
   padding-bottom:80%;
-  background-image:url(../img/tile.jpg);
-  background-size: cover;
+  background-color: rgb(206, 204, 204);
+  background-image: linear-gradient(335deg, rgb(73, 54, 38) 23px, transparent 23px),
+  linear-gradient(155deg, rgb(85, 63, 46) 23px, transparent 23px),
+  linear-gradient(335deg, rgb(73, 54, 38) 23px, transparent 23px),
+  linear-gradient(155deg, rgb(85, 63, 46) 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
   overflow-y: hidden;
 }
